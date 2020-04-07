@@ -1,0 +1,60 @@
+Fundamentals of Statistics
+
+#Binomial Distribution
+
+
+
+
+#Expected Value/Mean/Average
+
+
+			(for discrete random variables)
+			
+
+			(f(x) is the continuous probability distribution of x)
+
+#Geometric average:
+
+The geometric average is always lower than the arithmetic return unless all the numbers are the same. It's a less optimistic version.
+
+#Average:
+
+
+
+#Variance
+
+
+#Sample Variance
+
+
+#Covariance
+
+A positive covariance means that the two move together.
+A negative covariance means that they tend to move opposite each other.
+
+#Correlation 
+	
+
+
+	
+
+The intercept is called alpha, and the slope is called beta. The Shller Inc. return minus the interest rate on the direct-axis and the market return minus the interest rate on lateral axis. In that case, alpha is a measure of how much Shiller Inc out performs. And the beta of the stock is a measure of how much it moves with the market
+
+#Normal distribution / Gaussian distribution
+
+
+
+
+We often assume in finance that random variables, such as returns, are normally distributed.
+Normal distribution is the most famous bell-shaped curve.
+But there are other ones with different mathematics. A particular interest in finance is fat-tailed 
+alternatives.
+
+
+
+This distribution has more out in the tails, so we called it fat-tailed.
+This refers to random variables that have fat-tailed distributions are random variables that occasionally give you really big outcomes. It's a very important observation in finance that returns on a lot of speculative assets have fat-tailed distributions.
+
+Left tail
+
+Right tail
