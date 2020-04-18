@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MS17_010 Page</title>
+<!--bootstrap Css-->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<!--ico font Css-->
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<!-- magnific-popup Css-->
+<link href="assets/css/magnific-popup.css" rel="stylesheet">
+<!--lineProgressbar Css-->
+<link href="assets/css/jquery.lineProgressbar.css" rel="stylesheet">
+<!--owl.carousel Css-->
+<link href="assets/css/owl.carousel.css" rel="stylesheet">
+<!--Slick Nav Css-->
+<link href="assets/css/slicknav.min.css" rel="stylesheet">
+<!--Animate Css-->
+<link href="assets/css/animate.css" rel="stylesheet">
+<!--Style Css-->
+<link href="assets/css/style ms17010.css" rel="stylesheet">
+<!--Responsive Css-->
+<link href="assets/css/responsive.css" rel="stylesheet">
+
+	
+	
+	
+	
+	
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>Ms17_010</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">	
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style5.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css" media="screen">
+
+	
+	
+	
+</head>
+<!-- body -->
+<body>
+	
+	
+  <!--header section start-->
+	<section class="header" id="header">
+   <header class="header-area header-bg" id="home">
+		<div class="header-inner">
+				<span>Welcome to</span>
+				<h1>MS17_010</h1>
+		</div>
+   </header>
+		</section>
+    <!-- end header end -->
+    <!--services start--> 
+     <section class="blog-area" id="blog">
+
+    		   
+		 <div class="service_main">
+    		    	<div class="container">
+    		    		<div class="row">
+    		    			<div class="col-md-">
+    		    				<div class="written_text">
+    		    					<p class="written_text">If you've never learnt about cybersecurity，You may be unfamiliar with the <strong>MS17_010</strong> vulnerability. But as long as you use the computer, you are likely to hear something about the <strong> EternalBlue </strong>. Actually they're the same thing. The powerful virus <strong>WannaCry</strong> is largely depend on this bug.</p>
+									<p class="written_text">Eternalblue exploits remote code execution vulnerabilities in smbv1 and NBT via TCP ports 445 and 139.</p>
+									
+    		    				</div>
+    		    			</div>
+    		    		</div>
+    		    	</div>
+    		    </div>
+		 	
+		 
+		 <div class="service_main">
+    		    	<div class="container">
+    		    		<div class="row">
+    		    			<div class="col-md-">
+    		    				<div class="written_text">
+    		    					<h1 class="written_text">Introduction to port 445:</h1>
+									<p class="written_text">
+									Port 445 is a mixed port. With it, we can easily access various shared folders or shared printers on the local area network, but it is because of it that hackers have an opportunity to get into your computer. With 445 port, they secretly could share your hard drive, or even formats your hard drive silently! In October 2017, due to the virus "bad rabbit", CNCERT and other security agencies recommended that users shut down the computer in time and Ports 445 and 139 on network devices</p>
+    		    				</div>
+    		    			</div>
+    		    		</div>
+    		    	</div>
+    		    </div>
+		 
+		 
+		 
+		 
+				<div class="service_main">
+    		    	<div class="container">
+    		    		<div class="row">
+    		    			<div class="col-md-">
+   		    				  <div class="written_text">
+    		    				  <div class="like_icon"><img src="images/writing-icon.png"></div>
+    		    					<h1 class="written_text">Preparatios:</h1>
+									<p class="written_text">KALI LINUX(used as attacker) IP:192.168.0.108</p>	
+								  	<p class="written_text">WINDOWS 7(used as target) IP:192.168.0.105</p>	  
+								  	<p class="written_text">metasploit framework(in KALI)</p>
+								  	<p class="written_text">ps. windows 7 must contain ms17_010. How to determine whether there is this vulnerabilities will be detailed later。</p>
+								  	<p class="written_text">After this, we could start.</p>
+								</div>
+    		    			</div>
+    		    		</div>
+    		    	</div>
+    		    </div>
+				
+				
+				
+    <div class="service_main">
+    	<div class="container">
+    		<div class="row">
+    		    <div class="col-md">
+    		    	<div class="written_text">
+						<div class="like_icon"><img src="images/writing-icon.png"></div>
+    		    			<h1 class="written_text">#1 Check network communication between attacker and target</h1>
+					 		
+					  		<h3 class="written_text">#1.1 Query ip address</h3>
+							<p class="written_text">Attacker：kali Linux  192.168.0.108</p>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image001.png" alt="image"></div>
+							<p class="written_text">Target：windows7  192.168.0.105</p>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image003.png" alt="image"></div>
+						
+							<h3 class="written_text">#1.2 Use the ping command to check the network communication between the attacker and the target</h3>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image005.png" alt="image"></div>
+	    		  </div>
+				</div>
+    		</div>
+        </div>
+	</div>
+
+	
+		 
+	<div class="service_main">
+    	<div class="container">
+    		<div class="row">
+    		    <div class="col-md">
+    		    	<div class="written_text">
+						<div class="like_icon"><img src="images/writing-icon.png"></div>
+    		    			<h1 class="written_text">#2 Start metasploit</h1>
+					 		
+					  		<h3 class="written_text">#2.1 2.1	use "msfdb run" command to start database and metasploit at the same time </h3>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image007.png" alt="image"></div>
+	    		  </div>
+				</div>
+    		</div>
+        </div>
+	</div>
+		 
+		 
+	    <div class="service_main">
+    	<div class="container">
+    		<div class="row">
+    		    <div class="col-md">
+    		    	<div class="written_text">
+					  <div class="like_icon"><img src="images/writing-icon.png"></div>
+    		    			<h1 class="written_text">#3 Scan the target machine for ms17_010 vulnerability</h1>
+					 		
+					  		<h3 class="written_text">#3.1 The attacker queries and selects the penetration module</h3>
+							<p class="written_text">Use "search" command and "use" command to find and use modules</p>
+					  <p class="written_text">Scanner/smb/smb_ms017_010</p>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image009.png" alt="image"></div>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image011.png" alt="image"></div>
+							<h3 class="written_text">#3.2 View configuration information</h3>
+							<p class="written_text">Use "show options" command to view</p>
+							<p class="written_text">Use "set RHOSTS 192.168.0.105" command to set target's ip</p>
+							<p class="written_text">Use "run" command to run the scanner</p>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image013.png" alt="image"></div>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image015.png" alt="image"></div>
+							<p class="written_text"><strong>VULNERABLE</strong> indicates that there is a bug and you can start an attack</p>
+	    		  </div>
+				</div>
+    		</div>
+        </div>
+	</div>
+		
+ 
+		 
+	    <div class="service_main">
+    	<div class="container">
+    		<div class="row">
+    		    <div class="col-md">
+    		    	<div class="written_text">
+						<div class="like_icon"><img src="images/writing-icon.png"></div>
+    		    			<h1 class="written_text">#4 Perform ms17_010 vulnerability attack on the target</h1>
+					 		
+					  		<h3 class="written_text">#4.1 Config Work</h3>
+							<p class="written_text">Use "search" command and "use" command to find and use modules and "run" it</p>
+							<p class="written_text">set RHOSTS and LHOSTS</p>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image017.png" alt="image"></div>
+							<h3 class="written_text">#4.2 Show target type</h3>
+							<p class="written_text">As long as we got only one target, there is no need for us to select a target manually.</p>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image019.png" alt="image"></div>
+							<h3 class="written_text">#4.2 Loading a payload</h3>
+							<p class="written_text">search and use a payload </p>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image021.png" alt="image"></div>
+							<h3 class="written_text">#4.3 Configure a payload</h3>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image023.png" alt="image"></div>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image025.png" alt="image"></div>
+							<p class="written_text">After the configuration is complete, you can start the attack. </p>
+							<h3 class="written_text">#4.4 MSF attack</h3>
+							<p class="written_text">Use "exploit" command to start your attack</p>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image027.png" alt="image"></div>
+							<p class="written_text">If everything is right, you now have gotten into the target succefully. </p>
+							<p class="written_text">(do you see that "WIN"? It's a sign that you made it!!)</p>
+	    		  </div>
+				</div>
+    		</div>
+        </div>
+	</div>
+		 
+		 
+		  <div class="service_main">
+    	<div class="container">
+    		<div class="row">
+    		    <div class="col-md">
+    		    	<div class="written_text">
+						<div class="like_icon"><img src="images/writing-icon.png"></div>
+    		    			<h1 class="written_text">#5 Remote command execution</h1>
+					 		
+							<p class="written_text">Use DOS command to create user, modify coding method (CHCP 65001) to eliminate garbled code</p>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image029.png" alt="image"></div>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image031.png" alt="image"></div>
+							<p class="written_text">Now that you have the System32 permission, which is the highest permission in windows (even higher than the system administrator), you also create a user for the next penetration.  More functions, you can Google DOS command by yourself ！</p>
+						
+							<p class="written_text">When loading the payload, you can also load "Windows / x64 / meterpreter / reverse_tcp" to start the meterpreter function which could help you get a screenshot, get a webcam_stream and even a administrator code!!</p>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/image033.png" alt="image"></div>
+							<div class="col-md-6 col-md-offset-3 text-center"><img src="assets/progr/17010/6.png" alt="image"></div>
+	    		  </div>
+				</div>
+    		</div>
+        </div>
+	</div>
+		 
+		 
+		 
+		 
+				
+			
+    <!--services end -->
+
+		
+		     </section>
+     <!--contact section start-->
+    
+     <section class="contact-area" id="contact">	
+		 <div class="container">
+			<div class="row">
+     			<div class="col-md-6 col-md-offset-3 text-center">
+					<div class="section-title main">
+							<h2>Contact Me</h2>
+							<p>Remember, your suggestion counts! I WILL reply once I noticed it.</p>
+					</div>
+     			</div>
+     		</div>
+     		<div class="row">
+     			<div class="col-md-4 col-sm-12">
+     				<div class="single-contact-box">
+     					<div class="icon">
+     						<img src="assets/img/contact-icon-2.png" alt="contact icon">
+     					</div>
+     					<h4>Email</h4>
+     					<p>black_commander@outlook.com</p>
+     				</div>
+     				<div class="single-contact-box">
+     					<div class="icon">
+     						<img src="assets/img/contact-icon-1.png" alt="contact icon">
+     					</div>
+     					<h4>Location</h4>
+                        <p>
+                            No.1 Middle School Affiliated to Central China Normal University
+                        </p>
+     				</div>
+     			</div>
+     			<div class="col-md-8 col-sm-12">
+     				<div class="contact-form-wrapper">
+     					<form action="index.html">
+     						<div class="row">
+     							<div class="col-md-6 col-sm-12">
+     								<input type="text" placeholder="Enter Name">
+     							</div>
+     							<div class="col-md-6 col-sm-12">
+     								<input type="email" placeholder="Enter Email">
+     							</div>
+     							<div class="col-md-12">
+     								<input type="text" placeholder="Enter Sujbect">
+     								<textarea name="message" id="message" cols="30" rows="10" placeholder="Sorry, my cloud server has expired. Please use your own email to send."></textarea>
+     								<input type="submit" value="Send Message" class="boxed-btn">
+     							</div>
+     						</div>
+     					</form>
+     				</div>
+     			</div>
+     		</div>
+		 </div>
+     </section>
+     <!--contact section end-->
+     <!--footer area start-->
+     <footer class="footer-area">
+     	<div class="container">
+     		<div class="row">
+     			<div class="col-md-6 col-md-offset-3 text-center">
+     				<ul class="social-area">
+     					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+     					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+     					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+     					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+     					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+     					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+     				</ul>
+     				<div class="copyright-text">
+     					<p>Copyright &copy; 2020.Tangyi All rights reserved.</p>
+     				</div>
+     			</div>
+     		</div>
+     	</div>
+     </footer>
+     <!--footer area end-->
+
+
+
+      <!-- Javascript files-->
+	<script>  
+    document.addEventListener('visibilitychange', function () {  
+    if (document.visibilityState == 'hidden') {  
+        normal_title = document.title;  
+        document.title = 'Come back to see me~ _( :3 )';  
+    } else document.title = normal_title;  
+});  
+</script> 
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
